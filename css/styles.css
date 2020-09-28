@@ -1,0 +1,158 @@
+body {
+    background-color: rgba(233, 233, 235, 0.836);
+}
+header {
+    background-image: url("../img/principal.jpg");
+    background-repeat: no-repeat;
+    height: 40vmax;
+    width: auto;
+    background-size: 100%;
+    position: relative;
+}
+
+header li{
+    display: inline-block;
+}
+
+#partedecima {
+    font-family: 'Kanit';
+    color: rgb(19, 19, 49);
+    font-size: 20px;
+    font-weight: 700;
+    width: 40vmax;
+    padding-top: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: auto;
+    position: absolute;
+}
+
+#logo_titulo {
+    width: 80%;
+    height: auto;
+    opacity: 80%;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    padding-top: 3%;
+    padding-left: 30px;
+    padding-bottom: 5%;
+    word-wrap: break-word;
+}
+
+h2{
+    font-family: 'Kanit', sans-serif;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 3;
+}
+
+section p {
+    font-family: 'Kanit';
+    color:rgb(19, 19, 49);
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 60px;
+    line-height: 1.5;
+}
+
+#historia{
+    background-image:url('/img/primeiro-brasileirao.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+#rollerderby p{
+    text-align: left;
+    color:rgba(233, 233, 235, 0.836);
+}
+
+#jogo{
+    text-align: left;
+}
+
+section {
+    padding: 5% 10%;
+}
+
+#loja, #rollerderby{
+    background-color: rgb(19, 19, 49);
+    color: rgba(233, 233, 235, 0.836);
+}
+
+
+.icones {
+    width: 50px;
+    height: 50px;
+    color: honeydew;
+    opacity: 90%;
+    filter: invert();
+    padding-top: 40px;
+    padding-left: 50px;
+    display: flex;
+}
+
+#loja img{
+    max-width: 30%;
+    display:inline-block;
+    padding-right: 5%;
+}
+
+form{
+    font-family: 'Kanit', sans-serif;
+    padding: 2%;
+    margin: 0.5%;
+    font-weight: 700;
+}
+
+form label{
+    margin-left: 1%;
+}
+
+button{
+    background-color: rgb(19, 19, 49);
+    color: rgba(233, 233, 235, 0.836);
+    border: transparent solid 1px;
+    border-radius: 8%;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+input{
+    background-color:honeydew;
+    border-radius: 5%;
+    border:rgb(19, 19, 49) solid 1.5px;
+}
+
+footer{
+    background-color: rgb(19, 19, 49);
+    height: 30px;
+    width: auto;
+    opacity: 98%;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    padding: 1%;
+    color:white;
+    text-align: center;
+    font-weight: 400;
+}
+ iframe{
+     display:center;
+ }
